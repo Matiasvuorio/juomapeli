@@ -1,0 +1,54 @@
+.Card{
+    border: 0.5px black solid;
+    width: 90%;
+    height: 85%;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    background: rgb(175,45,45);
+    background: linear-gradient(180deg, rgba(175,45,45,1) 0%, rgba(240,84,84,1) 82%);
+    font-family: fantasy;
+    
+}
+.teksti 
+{
+
+    text-align: center;
+    margin-top: 5%;
+
+}
+h1 {
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 260%;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background-size: 120% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    background-image: linear-gradient(45deg, 
+                      #f05454, 
+                      #af2d2d,
+                      #ce6262,
+                      #FFF800);
+    animation: 1.3s shake infinite alternate;
+    -webkit-text-stroke: 2px black;
+  }
+  @keyframes shake {
+    0% { transform: skewX(-15deg); }
+    5% { transform: skewX(15deg); }
+    10% { transform: skewX(-15deg); }
+    15% { transform: skewX(15deg); }
+    20% { transform: skewX(0deg); }
+    100% { transform: skewX(0deg); }  
+  }
